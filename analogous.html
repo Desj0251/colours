@@ -1,16 +1,52 @@
 <!DOCTYPE html>
+
+<!--
+    MAD9014 Assignment #1: Colours
+    John Desjardins [desj0251@algonquinlive.ca]
+    September 26 2016
+    analogous.html : Analogous colour scheme v1.0
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Colour Assignment</title>
-    <!-- three pages are 
-    index.html with a monochromatic colour scheme
-    analogous.html with an analogous colour scheme
-    complementary.html with a complementary colour scheme 
+   
+    <!-- 
+        The three pages are:
+            index.html with a monochromatic colour scheme
+            analogous.html with an analogous colour scheme
+            complementary.html with a complementary colour scheme 
     
-    Be sure to replace EVERY color or background-color or border-color that is black, 
-    white, or grey with a colour from your scheme
+        Be sure to replace EVERY color or background-color or border-color that is black, 
+        white, or grey with a colour from your scheme
     -->
+    
+    <!--
+        The analogous.html page needs a colour scheme which is MonoChromatic.
+        
+        Colors that are opposite each other on the color wheel are considered to be complementary 
+        colors (example: red and green). The high contrast of complementary colors creates a vibrant 
+        look especially when used at full saturation.
+        
+        The base colour chosen for this page is yellow hex code #FFD023
+            Colour #1: #FFd023     Not Used
+            Colour #2: #FFFC17     Used
+            Colour #3: #E8D015     Used
+            Colour #4: #E8A515     Not Used
+            Colour #5: #FF9E17     Used
+            Colour #6: #000000     Used
+            Colour #7: #FFFFFF     Not Used
+        
+        Theme can be found @: 
+            https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=2&name=My%20Color%20Theme&mode=hsv&rgbvalues=1,0.9877161808289243,0.08912646156558135,0.91,0.8152637689120064,0.08110508002467903,1,0.81482725528362,0.1391264615655814,0.91,0.6481478576262459,0.08110508002467903,1,0.6204101971656149,0.08912646156558135&swatchOrder=0,1,2,3,4
+        
+        Pragraph Text Color #FFFC17 on Background Colour #000000
+            Brightness Level:      226
+            Colour Difference:     530
+            WCAG 2 Compliant:      Yes
+    -->
+   
     <meta name="viewpoint" content="width=device-width" />
     <style>
         *{
@@ -24,7 +60,7 @@
             font-family: Helvetica, Arial, sans-serif;
         }
         html,body{
-            background-color: #d4d4d4;
+            background-color: #FF9E17;
         }
         h1{
             font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
@@ -46,13 +82,13 @@
         nav li>a{
             display: block;
             text-decoration: none;
-            border-bottom: 0.2rem solid black;
+            border-bottom: 0.2rem solid #FF9E17;
             padding: 0.2rem 2rem;
-            color: #999;
+            color: #E8D015;
         }
         nav li>a:hover,
         nav li>a:active{
-            color: #222;
+            color: #FF9E17;
         }
         p{
             font-size: 1.414rem;
@@ -65,11 +101,13 @@
             width: 80%;
             max-width: 1200px;
             margin: 0 auto;
-            background-color: #e4e4e4;
+            background-color: #000000;
         }
         header{
             width:100%;
-            border-bottom: 1rem solid black;
+            border-bottom: 1rem solid #FF9E17;
+            background-color: #000000;
+            color: #E8D015;
         }
         nav{
             float:left;
@@ -78,23 +116,26 @@
         main{
             float:right;
             width: 61.8%;
+            color: #FFFC17;
+            background-color: #000000;
         }
         footer{
             clear:both;
             width: 100%;
-            border-top: 0.5rem solid black;
+            border-top: 0.5rem solid #FF9E17;
         }
         footer p{
             font-size: 1rem;
             padding: 2rem;
-            color: #666;
+            color: #E8D015;
+            background-color: #000000;
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <h1>A Colourful Site</h1>
+            <h1>John Desjardins</h1>
         </header>
         <nav>
             <ul>
